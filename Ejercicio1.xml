@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recetario>
+    <receta>
+        <tipo>Comida contundente</tipo>
+        <nombre>Tortilla de patatas</nombre>
+        <dificultad/>5/10
+        <ingredientes>
+            <ingrdiente1/>Patatas
+            <ingrdiente2/>Huevo
+            <ingrdiente3/>Cebolla
+        </ingredientes>
+        <pasos>
+            <paso1/>Freir las patatas y la cebolla
+            <paso2/>Batir los huevos
+            <paso3/>Mezclar todo
+            <paso4/>De vuelta a la sartén
+        </pasos>
+        <tiempo/>40 min
+        <calorias/>650
+    </receta>
+    <receta>
+        <tipo>Comida ligera</tipo>
+        <nombre>Sándwich mixto</nombre>
+        <dificultad/> 1/10
+        <ingredientes>
+            <ingrdiente1/>Pan de molde
+            <ingrdiente2/>Queso 
+            <ingrdiente3/>Jamón york
+        </ingredientes>
+        <pasos>
+            <paso1/>Coger 2 rebanadas de pan
+            <paso2/>Poner en el medio 1 loncha de queso y una de jamón
+            <paso3/>Al grill
+            <pasoN/>Cuando esté hecho cortar en diagonal
+        </pasos>
+        <tiempo/>10 min
+        <calorias/>100
+    </receta>
+</recetario>
