@@ -8,13 +8,23 @@ html {
 }
 
 form {
-    /*border-style:dotted ;*/
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+
+    padding: 20px;
     border: 10px ridge yellowgreen
 }
 
 
 
 div:first-of-type {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
     font-style: oblique;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-radius: 10px;
@@ -23,13 +33,30 @@ div:first-of-type {
 }
 
 div:last-of-type {
+
+    display: flex;
+
     font-weight: bolder;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: 3px groove green;
     border-right: 6px solid red;
 }
 
+div:last-of-type label {
+    flex: 1
+}
+
+div:last-of-type input {
+    flex: 3
+}
+
+
 form div:nth-child(2) {
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border: 2px dotted gold;
 
@@ -37,6 +64,12 @@ form div:nth-child(2) {
 
 form div:nth-child(3),
 form div:nth-child(4) {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+
     text-decoration: underline;
     border: 3px dashed orange;
     border-radius: 50px;
