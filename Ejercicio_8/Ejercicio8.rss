@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>Ejercicio 8</title>
+        <link>https://github.com/asierraperez</link>
+        <description>Octavo ejercicio del examen final de LMSXI</description>
+        <item>
+            <title>Tortilla de patatas</title>
+            <link>enlace</link>
+            <description>Elaboración de una tortilla de patatas
+            </description>
+        </item>
+        <item>
+            <title>Sandwich mixto</title>
+            <link>enlace</link>
+            <description>Elaboración de una tortilla de patatas</description>
+        </item>
+    </channel>
+</rss>
