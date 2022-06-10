@@ -1,0 +1,7 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 150 150">
+    <circle cx="75" cy="75" r="50" fill="green" stroke="blue">
+        <animate attributeType="CSS" attributeName="fill" values="green;red;green" dur="2s" begin="0s"
+            repeatCount="indefinite" />
+        <animate attributeType="XML" attributeName="r" from="0" to="50" dur="3s" begin="0s" />
+    </circle>
+</svg>
