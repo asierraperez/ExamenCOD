@@ -1,39 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE recetario[
+<!ELEMENT recetario (receta +)>
+<!ELEMENT receta(tipo,nombre,dificultad,ingredientes,pasos,tiempo,calorias)>
+<!ELEMENT tipo(#PCDATA)>
+<!ELEMENT tipo(#PCDATA)>
+<!ELEMENT nombre(#PCDATA)>
+<!ELEMENT dificultad(#PCDATA)>
+<!ELEMENT ingredientes(ingrediente +)>
+<!ELEMENT pasos(paso +)>
+<!ELEMENT tiempo(#PCDATA)>
+<!ELEMENT calorias(#PCDATA)>
+]>
 <recetario>
     <receta>
-        <tipo>Comida contundente</tipo>
+        <tipo>Comida</tipo>
         <nombre>Tortilla de patatas</nombre>
-        <dificultad/>5/10
+        <dificultad>media</dificultad>
         <ingredientes>
-            <ingrdiente1/>Patatas
-            <ingrdiente2/>Huevo
-            <ingrdiente3/>Cebolla
+            <ingrediente/>Patatas
+            <ingrediente/>Huevo
+            <ingrediente/>Cebolla
         </ingredientes>
         <pasos>
-            <paso1/>Freir las patatas y la cebolla
-            <paso2/>Batir los huevos
-            <paso3/>Mezclar todo
-            <paso4/>De vuelta a la sartén
+            <paso>Freir las patatas y la cebolla</paso>
+            <paso>Batir los huevos</paso>
+            <paso>Mezclar todo</paso>
+            <paso>De vuelta a la sartén</paso>
         </pasos>
-        <tiempo/>40 min
-        <calorias/>650
+        <tiempo>40</tiempo>
+        <calorias>350</calorias>
     </receta>
     <receta>
-        <tipo>Comida ligera</tipo>
+        <tipo>Desayuno</tipo>
         <nombre>Sándwich mixto</nombre>
-        <dificultad/> 1/10
+        <dificultad> facil</dificultad>
         <ingredientes>
-            <ingrdiente1/>Pan de molde
-            <ingrdiente2/>Queso 
-            <ingrdiente3/>Jamón york
+            <ingrediente>Pan de molde</ingrediente>
+            <ingrediente>Queso </ingrediente>
+            <ingrediente>Jamón York </ingrediente>
         </ingredientes>
         <pasos>
-            <paso1/>Coger 2 rebanadas de pan
-            <paso2/>Poner en el medio 1 loncha de queso y una de jamón
-            <paso3/>Al grill
-            <pasoN/>Cuando esté hecho cortar en diagonal
+            <paso>Coger 2 rebanadas de pan</paso>
+            <paso>Poner en el medio 1 loncha de queso y una de jamón</paso>
+            <paso>Al grill</paso>
+            <paso>Cuando esté hecho cortar en diagonal</paso>
         </pasos>
-        <tiempo/>10 min
-        <calorias/>100
+        <tiempo>10</tiempo>
+        <calorias>100</calorias>
+    </receta>
+    <receta>
+        <tipo>Postre</tipo>
+        <nombre>Helado de yogur</nombre>
+        <dificultad> facil</dificultad>
+        <ingredientes>
+            <ingrediente>yogur</ingrediente>
+        </ingredientes>
+        <pasos>
+            <paso>destapa el yogur</paso>
+            <paso>clava una cuchara</paso>
+            <paso>mete los dos en el congelador</paso>
+            <paso>esperar</paso>
+        </pasos>
+        <tiempo>50</tiempo>
+        <calorias>100</calorias>
     </receta>
 </recetario>
